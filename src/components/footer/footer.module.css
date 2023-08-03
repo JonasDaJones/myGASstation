@@ -2,6 +2,6 @@
   color: var(--medium-color);
   height: 50px;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: space-between;
 }
