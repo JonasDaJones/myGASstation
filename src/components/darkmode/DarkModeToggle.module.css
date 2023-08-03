@@ -1,0 +1,21 @@
+.container {
+  width: 42px;
+  height: 24px;
+  border: 1.5px solid hotpink;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2px;
+  position: relative;
+}
+.icon {
+  font-size: 12px;
+}
+.switch {
+  width: 15px;
+  height: 15px;
+  background-color: hotpink;
+  border-radius: 50%;
+  position: absolute;
+}
