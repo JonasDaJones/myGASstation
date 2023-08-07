@@ -1,13 +1,9 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 import bunchofpedals from "/public/bunchofpedals.png";
-import { Navbar } from "@/components/navbar/Navbar@";
-import { Footer } from "@/components/footer/Footer@";
-
 export default function Home() {
   return (
     <main>
-      <Navbar />
       <section className={styles.container}>
         <div className={styles.item}>
           <h1 className={styles.title}>MY G.A.S. STATION</h1>
@@ -26,7 +22,6 @@ export default function Home() {
           />
         </div>
       </section>
-      <Footer />
     </main>
   );
 }

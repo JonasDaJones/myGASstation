@@ -1,5 +1,5 @@
 .container {
-  padding: 20px;
+  padding: 0.5rem 2rem;
   cursor: pointer;
   background: linear-gradient(
     to bottom,
@@ -9,7 +9,8 @@
     #fbf5b7,
     #aa771c
   );
-  color: whitesmoke;
+  color: var(--primary-dark);
+  font-weight: bold;
   border: none;
   border-radius: 5px;
   width: max-content;

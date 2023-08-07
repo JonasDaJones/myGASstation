@@ -14,6 +14,7 @@ const links = [
   { id: 4, title: "about", url: "/about" },
   { id: 5, title: "contact", url: "/contact" },
   { id: 6, title: "dashboard", url: "/dashboard" },
+  { id: 7, title: "faq", url: "/faq" },
 ];
 
 export const Navbar = () => {
