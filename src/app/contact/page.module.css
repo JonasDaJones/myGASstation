@@ -1,0 +1,53 @@
+.pageTitle {
+  font-size: 2rem;
+  color: var(--primary-light);
+  text-align: center;
+}
+.container {
+  height: 80%;
+  width: auto;
+  margin: auto;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.item {
+  position: relative;
+}
+.img {
+  position: relative;
+}
+.imgCredit {
+  color: var(--primary-light);
+  font-size: x-small;
+  position: absolute;
+  bottom: 5px;
+  right: 3px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.input,
+.textArea {
+  padding: 0.8em;
+  background-color: var(--alternative-dark);
+  border: none;
+  outline: none;
+  color: var(--primary-light);
+  font-size: 1.3em;
+  margin-bottom: 1em;
+}
+
+.label {
+  color: var(--medium-color);
+  font-size: smaller;
+  margin: 0;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}

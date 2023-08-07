@@ -1,0 +1,17 @@
+.container {
+  padding: 0.5rem 2rem;
+  cursor: pointer;
+  background: linear-gradient(
+    to bottom,
+    #bf953f,
+    #fcf6ba,
+    #b38728,
+    #fbf5b7,
+    #aa771c
+  );
+  color: var(--primary-dark);
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  width: max-content;
+}
