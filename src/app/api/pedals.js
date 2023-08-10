@@ -1,3 +1,4 @@
+import { NextResponse } from "next/server";
 import connectMongo from "../../utils/db";
 import Pedal from "../../models/pedalModel";
 
