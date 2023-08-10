@@ -1,0 +1,43 @@
+.header {
+  background: transparent;
+  padding: 0.5em;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: fit-content;
+  box-shadow: 0 -5px 3px -3px rgba(191, 149, 63, 0.6),
+    0 5px 3px -3px rgba(191, 149, 63, 0.6);
+}
+.listTitle {
+  font-size: 3em;
+  color: #bbb;
+  background: linear-gradient(
+    45deg,
+    rgb(191, 149, 63),
+    #fcf6ba,
+    #b38728,
+    #fbf5b7,
+    #aa771c
+  );
+  background-clip: inherit;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.addButton {
+  padding: 0.3em 1em;
+  margin: 0.5em;
+  background: linear-gradient(
+    45deg,
+    #bf953f,
+    #fcf6ba,
+    #b38728,
+    #fbf5b7,
+    #aa771c
+  );
+  border-radius: 15px;
+  color: var(--primary-dark);
+  font-size: 1em;
+  font-weight: bold;
+}

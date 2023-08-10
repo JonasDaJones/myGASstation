@@ -1,0 +1,29 @@
+.border {
+  background: linear-gradient(
+    45deg,
+    #bf953f,
+    #fcf6ba,
+    #b38728,
+    #fbf5b7,
+    #aa771c
+  );
+  margin: 2em;
+  padding: 2px;
+}
+.container {
+  padding: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 3em;
+  background-color: var(--primary-dark);
+  color: var(--akzent-orange);
+}
+.pedalTitle {
+  font-weight: bold;
+  font-size: x-large;
+}
+.iconpart {
+  display: flex;
+  gap: 0.5em;
+}
