@@ -8,22 +8,22 @@ export default function overview() {
       <h1 className={styles.pageTitle}>the categories</h1>
       <ul className={styles.items}>
         <li className={styles.item}>
-          <Link href="#">
+          <Link href="/overview/pedals">
             <span className={styles.title}>Pedals</span>
           </Link>
         </li>
         <li className={styles.item}>
-          <Link href="#">
+          <Link href="/overview/boards">
             <span className={styles.title}>Boards</span>
           </Link>
         </li>
         <li className={styles.item}>
-          <Link href="#">
+          <Link href="/overview/sounds">
             <span className={styles.title}>Sounds</span>
           </Link>
         </li>
         <li className={styles.item}>
-          <Link href="#">
+          <Link href="/overview/songs">
             <span className={styles.title}>Songs</span>
           </Link>
         </li>
